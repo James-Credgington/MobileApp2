@@ -21,6 +21,10 @@ namespace GettingStarted.Droid
     {
         protected override void OnCreate(Bundle bundle)
         {
+        AppCenter.Start("7b61feef-b26c-4c90-a0b9-c2da5ee93332",
+                   typeof(Analytics), typeof(Crashes));
+AppCenter.Start("7b61feef-b26c-4c90-a0b9-c2da5ee93332",
+                   typeof(Analytics), typeof(Crashes));
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
