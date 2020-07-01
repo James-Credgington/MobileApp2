@@ -1,7 +1,12 @@
-﻿using Android.App;
+﻿using System;
+
+using Android.App;
 using Android.Content.PM;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
 using Android.OS;
-using static Android.Content.Res.Resources;
+
 
 
 namespace GettingStarted.Droid
