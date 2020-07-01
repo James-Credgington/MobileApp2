@@ -3,6 +3,7 @@ using Android.Content.PM;
 using Android.OS;
 using static Android.Content.Res.Resources;
 
+
 namespace GettingStarted.Droid
 {
     [Activity(Label = "GettingStarted", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
